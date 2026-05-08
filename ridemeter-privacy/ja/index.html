@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - RideMeter</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #6c757d;
+      --accent: #2d6cdf;
+      --border: #e9ecef;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f1a;
+        --card: #1a1a2e;
+        --text: #e8e8f0;
+        --muted: #9a9ab0;
+        --accent: #4d8af0;
+        --border: #2a2a40;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .last-updated { font-size: 0.85rem; color: var(--muted); margin-bottom: 2rem; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; }
+    p { margin-bottom: 1rem; color: var(--text); }
+    ul { margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    strong { font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-box {
+      background: rgba(45, 108, 223, 0.06);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .lang-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+    .lang-selector a {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: var(--border);
+      color: var(--muted);
+      transition: opacity 0.15s ease;
+    }
+    .lang-selector a.active { background: var(--accent); color: #fff; }
+    .lang-selector a:hover { opacity: 0.8; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .card { padding: 1.5rem 1.25rem; border-radius: 14px; }
+      h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <nav class="lang-selector" aria-label="Language selector"><a href="../zh-Hant/">繁體中文</a><a href="../ja/" class="active">日本語</a><a href="../es/">Español</a><a href="../fr/">Français</a><a href="../de/">Deutsch</a><a href="../hi/">हिन्दी</a></nav>
+      <h1>プライバシーポリシー</h1>
+      <div class="subtitle">RideMeter</div>
+      <div class="last-updated">最終更新日：2026年5月7日</div>
+      <p>RideMeter はお客様のプライバシーを重視しています。本プライバシーポリシーでは、当社がお客様の情報をどのように収集、利用、保護するかを説明します。</p>
+      <div class="highlight-box"><strong>概要：</strong>すべてのライドデータはお客様のデバイス内にのみ保存され、個人情報を収集してサーバーへアップロードすることはありません。</div>
+      
+      <h2>1. 情報の収集</h2>
+      <p>主要機能を提供するため、RideMeter は以下の権限を必要とします：</p>
+      <ul><li><strong>位置情報（常に/使用中）：</strong>ライドナビゲーション、GPS による速度計算、走行ルートの記録に使用します。位置情報の権限は iOS のシステム設定でいつでも変更できます。</li><li><strong>ライドデータ：</strong>リアルタイム速度、距離、走行時間、平均速度、ルート軌跡が含まれます。</li></ul>
+      
+      <h2>2. データの保存</h2>
+      <p>RideMeter はローカルファーストの設計方針に基づいています：</p>
+      <ul><li>すべてのライドデータはお客様の iPhone 端末内にのみ保存されます</li><li>個人を特定できる情報を外部サーバーへアップロードすることはありません</li><li>お客様のデータを第三者と共有することはありません</li><li>本アプリは第三者の分析サービスや広告 SDK を使用しません</li><li>本アプリはアカウント作成、登録、ログインを必要としません</li></ul>
+      
+      <h2>3. 位置情報の利用</h2>
+      <p>位置情報は以下の目的にのみ使用します：</p>
+      <ul><li>ライドナビゲーションルートの表示</li><li>リアルタイム速度と走行距離の計算</li><li>走行軌跡の記録</li></ul>
+      <p>位置データはアプリが前面で使用されている間のみ収集されます。アプリを閉じている場合やバックグラウンドで動作している場合、位置情報を継続的に取得することはありません。</p>
+      <h2>4. データの共有</h2>
+      <p>お客様が共有機能を能動的に使用する場合：</p>
+      <ul><li>アプリはライドデータを含む画像を生成します</li><li>その画像を WeChat、Weibo、モーメンツなどのソーシャルプラットフォームへ共有するかを選択できます</li><li>これはお客様が能動的に開始する操作であり、アプリがデータを自動的に共有することはありません</li></ul>
+      
+      <h2>5. データの削除</h2>
+      <p>お客様はいつでも以下を行えます：</p>
+      <ul><li>アプリ内で単一またはすべてのライド履歴を削除する</li><li>アプリをアンインストールしてすべてのローカルデータを消去する</li><li>iOS のシステム設定で位置情報権限をオフにし、位置データの収集を停止する</li></ul>
+      
+      <h2>6. 子どものプライバシー</h2>
+      <p>本アプリは13歳未満の子どもを対象としていません。当社は子どもの個人情報を故意に収集しません。</p>
+      
+      
+      <h2>7. ポリシーの変更</h2>
+      <p>本プライバシーポリシーに変更がある場合、アプリ内で通知し、本ページの「最終更新日」を更新します。</p>
+      
+      
+      <h2>8. お問い合わせ</h2>
+      <p>本プライバシーポリシーについてご質問や懸念がある場合は、以下の方法でお問い合わせください：</p>
+      <ul><li><strong>GitHub Issues：</strong><a href="https://github.com/wallyvay/ridemeter/issues" target="_blank" rel="noopener">wallyvay/ridemeter</a></li><li>または本プロジェクトのリポジトリで Issue を作成してください</li></ul>
+      
+      <div class="footer">RideMeter - サイクリング愛好家のために</div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>गोपनीयता नीति - RideMeter</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #6c757d;
+      --accent: #2d6cdf;
+      --border: #e9ecef;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f1a;
+        --card: #1a1a2e;
+        --text: #e8e8f0;
+        --muted: #9a9ab0;
+        --accent: #4d8af0;
+        --border: #2a2a40;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .last-updated { font-size: 0.85rem; color: var(--muted); margin-bottom: 2rem; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; }
+    p { margin-bottom: 1rem; color: var(--text); }
+    ul { margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    strong { font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-box {
+      background: rgba(45, 108, 223, 0.06);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .lang-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+    .lang-selector a {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: var(--border);
+      color: var(--muted);
+      transition: opacity 0.15s ease;
+    }
+    .lang-selector a.active { background: var(--accent); color: #fff; }
+    .lang-selector a:hover { opacity: 0.8; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .card { padding: 1.5rem 1.25rem; border-radius: 14px; }
+      h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <nav class="lang-selector" aria-label="Language selector"><a href="../zh-Hant/">繁體中文</a><a href="../ja/">日本語</a><a href="../es/">Español</a><a href="../fr/">Français</a><a href="../de/">Deutsch</a><a href="../hi/" class="active">हिन्दी</a></nav>
+      <h1>गोपनीयता नीति</h1>
+      <div class="subtitle">RideMeter</div>
+      <div class="last-updated">अंतिम अपडेट: 7 मई 2026</div>
+      <p>RideMeter आपकी गोपनीयता को महत्व देता है। यह गोपनीयता नीति बताती है कि हम आपकी जानकारी कैसे एकत्र, उपयोग और सुरक्षित करते हैं।</p>
+      <div class="highlight-box"><strong>संक्षेप में:</strong>सभी राइड डेटा केवल आपके डिवाइस पर स्थानीय रूप से संग्रहीत होता है। हम कोई व्यक्तिगत जानकारी एकत्र करके सर्वर पर अपलोड नहीं करते हैं।</div>
+      
+      <h2>1. जानकारी का संग्रह</h2>
+      <p>मुख्य सुविधाएं देने के लिए RideMeter को निम्न अनुमतियों की आवश्यकता होती है:</p>
+      <ul><li><strong>स्थान जानकारी (हमेशा/उपयोग के दौरान):</strong>साइकिल नेविगेशन, GPS गति गणना और राइड रूट रिकॉर्डिंग के लिए उपयोग की जाती है। आप iOS सिस्टम सेटिंग्स में किसी भी समय स्थान अनुमति बदल सकते हैं।</li><li><strong>राइड डेटा:</strong>इसमें रियल-टाइम गति, दूरी, राइड अवधि, औसत गति और रूट ट्रैक शामिल हैं।</li></ul>
+      
+      <h2>2. डेटा संग्रहण</h2>
+      <p>RideMeter का डिजाइन सिद्धांत स्थानीय पहले है:</p>
+      <ul><li>सभी राइड डेटा केवल आपके iPhone डिवाइस पर स्थानीय रूप से सहेजा जाता है</li><li>हम कोई व्यक्तिगत पहचान योग्य जानकारी बाहरी सर्वर पर अपलोड नहीं करते हैं</li><li>हम आपका डेटा किसी तीसरे पक्ष के साथ साझा नहीं करते हैं</li><li>यह ऐप किसी तीसरे पक्ष की एनालिटिक्स सेवा या विज्ञापन SDK का उपयोग नहीं करता है</li><li>इस ऐप में खाता बनाने, पंजीकरण करने या लॉग इन करने की आवश्यकता नहीं है</li></ul>
+      
+      <h2>3. स्थान जानकारी का उपयोग</h2>
+      <p>स्थान जानकारी केवल इन उद्देश्यों के लिए उपयोग की जाती है:</p>
+      <ul><li>साइकिल नेविगेशन रूट दिखाना</li><li>रियल-टाइम गति और तय दूरी की गणना करना</li><li>राइड ट्रैक रिकॉर्ड करना</li></ul>
+      <p>स्थान डेटा केवल तब एकत्र किया जाता है जब ऐप सामने उपयोग में हो। ऐप बंद होने पर या बैकग्राउंड में चलने पर स्थान जानकारी लगातार प्राप्त नहीं की जाती।</p>
+      <h2>4. डेटा साझा करना</h2>
+      <p>जब आप स्वयं शेयर सुविधा का उपयोग करते हैं:</p>
+      <ul><li>ऐप राइड डेटा वाली एक छवि बनाता है</li><li>आप इस छवि को WeChat, Weibo, Moments आदि सोशल प्लेटफॉर्म पर साझा करने का विकल्प चुन सकते हैं</li><li>यह कार्रवाई आपके द्वारा शुरू की जाती है; ऐप स्वयं कोई डेटा अपने आप साझा नहीं करता है</li></ul>
+      
+      <h2>5. डेटा हटाना</h2>
+      <p>आप किसी भी समय:</p>
+      <ul><li>ऐप में एक राइड या पूरा राइड इतिहास हटा सकते हैं</li><li>सभी स्थानीय डेटा साफ करने के लिए ऐप अनइंस्टॉल कर सकते हैं</li><li>स्थान डेटा संग्रह रोकने के लिए iOS सिस्टम सेटिंग्स में स्थान अनुमति बंद कर सकते हैं</li></ul>
+      
+      <h2>6. बच्चों की गोपनीयता</h2>
+      <p>यह ऐप 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है। हम जानबूझकर बच्चों की व्यक्तिगत जानकारी एकत्र नहीं करते हैं।</p>
+      
+      
+      <h2>7. नीति में बदलाव</h2>
+      <p>यदि इस गोपनीयता नीति में बदलाव होता है, तो हम आपको ऐप में सूचित करेंगे और इस पेज की अंतिम अपडेट तारीख बदलेंगे।</p>
+      
+      
+      <h2>8. हमसे संपर्क करें</h2>
+      <p>यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न या चिंताएं हैं, तो कृपया हमसे इस तरह संपर्क करें:</p>
+      <ul><li><strong>GitHub Issues:</strong><a href="https://github.com/wallyvay/ridemeter/issues" target="_blank" rel="noopener">wallyvay/ridemeter</a></li><li>या इस प्रोजेक्ट रिपॉजिटरी में Issue बनाएं</li></ul>
+      
+      <div class="footer">RideMeter - साइकिल प्रेमियों के लिए बनाया गया</div>
+    </article>
+  </main>
+</body>
+</html>

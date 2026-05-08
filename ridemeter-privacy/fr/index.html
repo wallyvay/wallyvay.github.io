@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité - RideMeter</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #6c757d;
+      --accent: #2d6cdf;
+      --border: #e9ecef;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f1a;
+        --card: #1a1a2e;
+        --text: #e8e8f0;
+        --muted: #9a9ab0;
+        --accent: #4d8af0;
+        --border: #2a2a40;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+    h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .last-updated { font-size: 0.85rem; color: var(--muted); margin-bottom: 2rem; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; }
+    p { margin-bottom: 1rem; color: var(--text); }
+    ul { margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    strong { font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-box {
+      background: rgba(45, 108, 223, 0.06);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .lang-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+    .lang-selector a {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: var(--border);
+      color: var(--muted);
+      transition: opacity 0.15s ease;
+    }
+    .lang-selector a.active { background: var(--accent); color: #fff; }
+    .lang-selector a:hover { opacity: 0.8; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .card { padding: 1.5rem 1.25rem; border-radius: 14px; }
+      h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <nav class="lang-selector" aria-label="Language selector"><a href="../zh-Hant/">繁體中文</a><a href="../ja/">日本語</a><a href="../es/">Español</a><a href="../fr/" class="active">Français</a><a href="../de/">Deutsch</a><a href="../hi/">हिन्दी</a></nav>
+      <h1>Politique de confidentialité</h1>
+      <div class="subtitle">RideMeter</div>
+      <div class="last-updated">Dernière mise à jour : 7 mai 2026</div>
+      <p>RideMeter accorde de l'importance à votre confidentialité. Cette politique explique comment nous collectons, utilisons et protégeons vos informations.</p>
+      <div class="highlight-box"><strong>Résumé :</strong>Toutes les données de trajet sont stockées uniquement en local sur votre appareil. Nous ne collectons aucune information personnelle pour l'envoyer vers un serveur.</div>
+      
+      <h2>1. Collecte des informations</h2>
+      <p>Pour fournir ses fonctionnalités principales, RideMeter a besoin des autorisations suivantes :</p>
+      <ul><li><strong>Informations de localisation (toujours/pendant l'utilisation) :</strong>utilisées pour la navigation à vélo, le calcul de la vitesse GPS et l'enregistrement des itinéraires. Vous pouvez modifier les autorisations de localisation à tout moment dans les réglages iOS.</li><li><strong>Données de trajet :</strong>incluent la vitesse en temps réel, la distance, la durée du trajet, la vitesse moyenne et la trace de l'itinéraire.</li></ul>
+      
+      <h2>2. Stockage des données</h2>
+      <p>RideMeter est conçu selon un principe local d'abord :</p>
+      <ul><li>Toutes les données de trajet sont enregistrées uniquement en local sur votre iPhone</li><li>Nous ne téléversons aucune information d'identification personnelle vers des serveurs externes</li><li>Nous ne partageons pas vos données avec des tiers</li><li>L'application n'utilise aucun service d'analyse tiers ni SDK publicitaire</li><li>L'application ne nécessite ni compte, ni inscription, ni connexion</li></ul>
+      
+      <h2>3. Utilisation des informations de localisation</h2>
+      <p>Les informations de localisation sont utilisées uniquement pour :</p>
+      <ul><li>Afficher les itinéraires de navigation à vélo</li><li>Calculer la vitesse en temps réel et la distance parcourue</li><li>Enregistrer la trace du trajet</li></ul>
+      <p>Les données de localisation ne sont collectées que lorsque l'application est utilisée au premier plan. Lorsque l'application est fermée ou fonctionne en arrière-plan, elle ne collecte pas la localisation en continu.</p>
+      <h2>4. Partage des données</h2>
+      <p>Lorsque vous utilisez volontairement la fonction de partage :</p>
+      <ul><li>L'application génère une image contenant les données du trajet</li><li>Vous pouvez choisir de partager cette image sur des plateformes sociales comme WeChat, Weibo ou Moments</li><li>Cette action est déclenchée par vous ; l'application ne partage aucune donnée automatiquement</li></ul>
+      
+      <h2>5. Suppression des données</h2>
+      <p>Vous pouvez à tout moment :</p>
+      <ul><li>Supprimer un trajet individuel ou tout l'historique des trajets dans l'application</li><li>Désinstaller l'application pour effacer toutes les données locales</li><li>Désactiver l'autorisation de localisation dans les réglages iOS afin d'arrêter la collecte des données de localisation</li></ul>
+      
+      <h2>6. Confidentialité des enfants</h2>
+      <p>Cette application ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles concernant des enfants.</p>
+      
+      
+      <h2>7. Modifications de la politique</h2>
+      <p>Si cette politique de confidentialité change, nous vous en informerons dans l'application et mettrons à jour la date de dernière mise à jour sur cette page.</p>
+      
+      
+      <h2>8. Nous contacter</h2>
+      <p>Si vous avez des questions ou des préoccupations au sujet de cette politique de confidentialité, contactez-nous comme suit :</p>
+      <ul><li><strong>GitHub Issues :</strong><a href="https://github.com/wallyvay/ridemeter/issues" target="_blank" rel="noopener">wallyvay/ridemeter</a></li><li>Ou créez une Issue dans le dépôt de ce projet</li></ul>
+      
+      <div class="footer">RideMeter - Conçu pour les passionnés de vélo</div>
+    </article>
+  </main>
+</body>
+</html>
