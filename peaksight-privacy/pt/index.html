@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="O PeakSight não coleta, armazena nem compartilha informações que identifiquem você pessoalmente. Localização, câmera, bússola e barômetro são usados apenas para recursos do app.">
+  <link rel="canonical" href="https://wallyvay.github.io/peaksight-privacy/pt/">
+  <title>Política de Privacidade do PeakSight</title>
+  <style>
+    :root {
+      --bg: #f6f8f7;
+      --card: #ffffff;
+      --text: #17201d;
+      --muted: #65736e;
+      --accent: #0f8f7d;
+      --accent-soft: rgba(15, 143, 125, 0.09);
+      --border: #dfe7e3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101614;
+        --card: #18211f;
+        --text: #edf4f1;
+        --muted: #a8b8b2;
+        --accent: #5ad3bc;
+        --accent-soft: rgba(90, 211, 188, 0.13);
+        --border: #2b3935;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif;
+      line-height: 1.75;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    .lang-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+    .lang-selector a {
+      color: var(--muted);
+      background: var(--accent-soft);
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 0.28rem 0.62rem;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+    .lang-selector a.active {
+      color: #ffffff;
+      background: var(--accent);
+    }
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.9rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+    p { margin: 0 0 1rem; }
+    h2 { margin: 2rem 0 0.75rem; font-size: 1.15rem; line-height: 1.35; }
+    ul { margin: 0.4rem 0 1rem 1.4rem; padding: 0; }
+    [dir="rtl"] ul { margin-right: 1.4rem; margin-left: 0; }
+    li { margin-bottom: 0.45rem; }
+    strong { font-weight: 700; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      margin: 1.25rem 0 1.5rem;
+      padding: 1rem 1.15rem;
+      border-radius: 8px;
+      border-inline-start: 4px solid var(--accent);
+      background: var(--accent-soft);
+    }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .card { padding: 1.5rem 1.2rem; border-radius: 12px; }
+      h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <nav class="lang-selector" aria-label="Language selector"><a href="../zh-Hans/">简体中文</a><a href="../zh-Hant/">繁體中文</a><a href="../en/">English</a><a href="../ja/">日本語</a><a href="../ko/">한국어</a><a href="../ru/">Русский</a><a href="../es/">Español</a><a href="./" class="active">Português</a><a href="../fr/">Français</a><a href="../de/">Deutsch</a><a href="../ar/">العربية</a><a href="../th/">ไทย</a><a href="../hi/">हिन्दी</a></nav>
+      <h1>Política de Privacidade</h1>
+      <div class="subtitle">PeakSight</div>
+      <div class="updated">Última atualização: 13 de maio de 2026</div>
+      <p>O PeakSight respeita a sua privacidade. Esta política explica como o app usa sensores do dispositivo, solicitações de rede, anúncios e informações de compra.</p>
+      <div class="highlight"><strong>Em resumo:</strong> O PeakSight não coleta, armazena nem compartilha informações que identifiquem você pessoalmente. Localização, câmera, bússola e barômetro são usados apenas para recursos do app.</div>
+      
+      <h2>1. Informações que usamos</h2>
+      <p>Para oferecer seus recursos principais, o PeakSight pode ler as seguintes informações do dispositivo:</p>
+      <ul><li><strong>Localização, direção da bússola e pressão barométrica:</strong>usadas para mostrar altitude, direção e informações de picos próximos.</li><li><strong>Quadros da câmera:</strong>usados apenas na visualização AR Skyline para sobreposição em tempo real. Os quadros permanecem no dispositivo e não são gravados nem enviados.</li><li><strong>Dados de picos baixados:</strong>dados de picos próximos podem ser salvos localmente para visualização offline.</li></ul>
+      <h2>2. Publicidade</h2>
+      <p>A versão gratuita pode exibir banners do Google AdMob. O AdMob pode processar um identificador de publicidade não pessoal do dispositivo e segue as políticas de privacidade de publicidade do Google. Você pode limitar o rastreamento ou ajustar configurações de anúncios nos Ajustes do iOS, em Privacidade e Segurança.</p>
+      
+      <h2>3. Solicitações de rede</h2>
+      <p>Ao tocar em “Baixar dados próximos”, o PeakSight envia uma solicitação HTTPS para a API OpenStreetMap Overpass contendo suas coordenadas atuais e o raio selecionado. Essa solicitação é tratada pelo operador do serviço Overpass.</p>
+      
+      <h2>4. Compras no app</h2>
+      <p>As compras no app são processadas pelo Apple StoreKit. O PeakSight recebe apenas se o direito de compra é válido e não recebe suas informações de pagamento.</p>
+      
+      <h2>5. Armazenamento e exclusão de dados</h2>
+      <p>O PeakSight não exige cadastro de conta. Você pode excluir os dados de picos baixados com “Limpar dados baixados” no app ou desinstalar o app para remover todos os dados locais.</p>
+      
+      <h2>6. Privacidade de crianças</h2>
+      <p>O PeakSight não se destina a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças.</p>
+      
+      <h2>7. Alterações desta política</h2>
+      <p>Se esta política mudar, atualizaremos a data de última atualização nesta página e, quando apropriado, explicaremos a alteração no app.</p>
+      
+      <h2>8. Fale conosco</h2>
+      <p>Se tiver dúvidas sobre esta política, entre em contato pelo GitHub Issues:</p>
+      <ul><li><strong>GitHub Issues:</strong><a href="https://github.com/wallyvay/PeakSight/issues" target="_blank" rel="noopener">wallyvay/PeakSight</a></li></ul>
+      <div class="footer">PeakSight - Guia de visibilidade de montanhas e altitude</div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="PeakSight 不会收集、存储或共享可识别个人身份的信息。定位、相机、罗盘和气压数据仅用于应用功能。">
+  <link rel="canonical" href="https://wallyvay.github.io/peaksight-privacy/zh-Hans/">
+  <title>PeakSight 隐私政策</title>
+  <style>
+    :root {
+      --bg: #f6f8f7;
+      --card: #ffffff;
+      --text: #17201d;
+      --muted: #65736e;
+      --accent: #0f8f7d;
+      --accent-soft: rgba(15, 143, 125, 0.09);
+      --border: #dfe7e3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101614;
+        --card: #18211f;
+        --text: #edf4f1;
+        --muted: #a8b8b2;
+        --accent: #5ad3bc;
+        --accent-soft: rgba(90, 211, 188, 0.13);
+        --border: #2b3935;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif;
+      line-height: 1.75;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    .lang-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+    .lang-selector a {
+      color: var(--muted);
+      background: var(--accent-soft);
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 0.28rem 0.62rem;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+    .lang-selector a.active {
+      color: #ffffff;
+      background: var(--accent);
+    }
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.9rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+    p { margin: 0 0 1rem; }
+    h2 { margin: 2rem 0 0.75rem; font-size: 1.15rem; line-height: 1.35; }
+    ul { margin: 0.4rem 0 1rem 1.4rem; padding: 0; }
+    [dir="rtl"] ul { margin-right: 1.4rem; margin-left: 0; }
+    li { margin-bottom: 0.45rem; }
+    strong { font-weight: 700; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      margin: 1.25rem 0 1.5rem;
+      padding: 1rem 1.15rem;
+      border-radius: 8px;
+      border-inline-start: 4px solid var(--accent);
+      background: var(--accent-soft);
+    }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .card { padding: 1.5rem 1.2rem; border-radius: 12px; }
+      h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <nav class="lang-selector" aria-label="Language selector"><a href="./" class="active">简体中文</a><a href="../zh-Hant/">繁體中文</a><a href="../en/">English</a><a href="../ja/">日本語</a><a href="../ko/">한국어</a><a href="../ru/">Русский</a><a href="../es/">Español</a><a href="../pt/">Português</a><a href="../fr/">Français</a><a href="../de/">Deutsch</a><a href="../ar/">العربية</a><a href="../th/">ไทย</a><a href="../hi/">हिन्दी</a></nav>
+      <h1>隐私政策</h1>
+      <div class="subtitle">PeakSight</div>
+      <div class="updated">最后更新：2026 年 5 月 13 日</div>
+      <p>PeakSight 尊重您的隐私。本政策说明应用如何在设备上使用传感器、网络请求、广告和购买信息。</p>
+      <div class="highlight"><strong>简要说明：</strong> PeakSight 不会收集、存储或共享可识别个人身份的信息。定位、相机、罗盘和气压数据仅用于应用功能。</div>
+      
+      <h2>1. 我们使用的信息</h2>
+      <p>为了提供核心功能，PeakSight 可能读取以下设备信息：</p>
+      <ul><li><strong>位置、罗盘方向和气压：</strong>用于显示海拔、方位和附近山峰信息。</li><li><strong>相机画面：</strong>仅在 AR 山脊线视图中用于实时叠加画面。相机帧保留在设备上，不会被录制或上传。</li><li><strong>下载的山峰数据：</strong>附近山峰数据会保存在本机，方便离线查看。</li></ul>
+      <h2>2. 广告</h2>
+      <p>免费版本可能显示 Google AdMob 横幅广告。AdMob 可能处理非个人化的设备广告标识符并遵循 Google 的广告隐私政策。您可以在 iOS 系统设置的“隐私与安全性”中限制追踪或调整广告相关设置。</p>
+      
+      <h2>3. 网络请求</h2>
+      <p>当您点击“下载附近数据”时，PeakSight 会向 OpenStreetMap Overpass API 发送一次 HTTPS 请求，其中包含您的当前位置坐标和所选半径。该请求由 Overpass 服务运营方处理。</p>
+      
+      <h2>4. 应用内购买</h2>
+      <p>应用内购买由 Apple StoreKit 处理。PeakSight 只接收购买权益是否有效的结果，不会收到您的付款信息。</p>
+      
+      <h2>5. 数据存储与删除</h2>
+      <p>PeakSight 不要求注册账号。您可以通过应用内“清除下载缓存”删除已下载山峰数据，也可以卸载应用来删除所有本地数据。</p>
+      
+      <h2>6. 儿童隐私</h2>
+      <p>PeakSight 不面向 13 岁以下儿童。我们不会故意收集儿童的个人信息。</p>
+      
+      <h2>7. 政策变更</h2>
+      <p>如果本政策发生变化，我们会更新本页面的“最后更新”日期，并在适当时通过应用内说明告知您。</p>
+      
+      <h2>8. 联系我们</h2>
+      <p>如果您对本政策有疑问，请通过 GitHub Issues 联系我们：</p>
+      <ul><li><strong>GitHub Issues：</strong><a href="https://github.com/wallyvay/PeakSight/issues" target="_blank" rel="noopener">wallyvay/PeakSight</a></li></ul>
+      <div class="footer">PeakSight - 山野视野与海拔指南</div>
+    </article>
+  </main>
+</body>
+</html>
