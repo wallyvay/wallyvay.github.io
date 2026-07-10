@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SelfieDiary Privacy</title>
+  <style>:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#20362e;background:#f8f2e6;line-height:1.65}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#d9ebd9 0,transparent 29rem),#f8f2e6}main{width:min(860px,calc(100% - 32px));margin:0 auto;padding:54px 0 34px}.brand{display:flex;align-items:center;gap:12px;color:#28795b;font-weight:800;letter-spacing:.01em}.mark{width:34px;height:34px;border:5px solid #28795b;border-radius:8px;box-shadow:inset 9px 0 0 #f8f2e6;position:relative}.mark:after{content:"";position:absolute;width:7px;height:7px;border:3px solid #28795b;border-radius:50%;right:3px;top:7px}h1{font-size:clamp(2.1rem,7vw,4rem);line-height:1.08;margin:34px 0 18px;letter-spacing:-.035em}.intro{font-size:1.12rem;max-width:720px;color:#4b655c}.updated{font-size:.9rem;color:#71847d}.document-nav,.languages{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.document-nav a,.language{color:#28795b;text-decoration:none;border:1px solid #b8cdbf;background:#ffffffa8;border-radius:999px;padding:7px 12px;font-weight:650;font-size:.9rem}.document-nav a.active,.language.active{background:#28795b;color:#fff;border-color:#28795b}article{margin-top:32px}section{background:#fffdf8;border:1px solid #dfddd1;border-radius:16px;padding:22px 24px;margin:14px 0;box-shadow:0 10px 35px #385b4710}h2{font-size:1.15rem;margin:0 0 8px;color:#28795b}p{margin:0}a{color:#28795b;overflow-wrap:anywhere}footer{margin-top:28px;color:#71847d;font-size:.9rem}ul{padding-left:1.3rem}@media(max-width:560px){main{padding-top:32px}section{padding:18px}h1{margin-top:24px}}</style>
+  <script>
+    const supported = ["zh-Hans","en-US","zh-Hant","ja","es-ES","fr-FR","de-DE","hi"];
+    const preferred = navigator.languages || [navigator.language || "en-US"];
+    const match = preferred.map(language => supported.find(locale => language.toLowerCase().startsWith(locale.split("-")[0].toLowerCase()))).find(Boolean) || "en-US";
+    location.replace("./" + match + "/privacy.html");
+  </script>
+</head>
+<body><main><header><div class="brand"><span class="mark" aria-hidden="true"></span><span>SelfieDiary</span></div><h1>Privacy Policy</h1></header><article><ul><li><a href="zh-Hans/privacy.html">简体中文</a></li><li><a href="en-US/privacy.html">English</a></li><li><a href="zh-Hant/privacy.html">繁體中文</a></li><li><a href="ja/privacy.html">日本語</a></li><li><a href="es-ES/privacy.html">Español</a></li><li><a href="fr-FR/privacy.html">Français</a></li><li><a href="de-DE/privacy.html">Deutsch</a></li><li><a href="hi/privacy.html">हिन्दी</a></li></ul></article></main></body>
+</html>
